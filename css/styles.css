@@ -560,7 +560,7 @@ section { padding: 4rem 0; }
 
 
 /* ---------- Animación de aparición al hacer scroll ---------- */
-.reveal { opacity: 0; transform: translateY(20px); transition: opacity .55s ease, transform .55s ease; }
+.reveal { opacity: 1; transform: none; transition: opacity .55s ease, transform .55s ease; }
 .reveal.visible { opacity: 1; transform: none; }
 
 
